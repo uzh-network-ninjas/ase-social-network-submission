@@ -1,10 +1,4 @@
 # Figma Backend Architecture
-## Project Setup Planning
-First off, we'd like to mention that we forgot to include the time for the project setup in the first sprint and
-therefore our workload has shifted a bit. In addition, we overlooked that sprints 2 & 3 are longer
-than sprint 1. Given these reasons we will adjust our sprint planning accordingly next week!
-
-## Figma Screenshot
 The added screenshot visualizes how we have set up the backend at the moment. We have a docker network
 in which we include all our microservices. At the moment we have one for Authentication, Users and Posts
 as well as one for the Frontend. These four microservices are inside a docker compose. Additionally, to enable
